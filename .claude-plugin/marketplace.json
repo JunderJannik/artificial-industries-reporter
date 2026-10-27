@@ -1,0 +1,11 @@
+{
+  "name": "artificial-industries",
+  "owner": { "name": "Artificial Industries" },
+  "plugins": [
+    {
+      "name": "artificial-industries-reporter",
+      "source": "./",
+      "description": "Meldet Agenten-Aktivität an die Fabrik von Artificial Industries."
+    }
+  ]
+}

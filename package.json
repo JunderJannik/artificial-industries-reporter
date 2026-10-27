@@ -1,0 +1,9 @@
+{
+  "name": "@ai/reporter",
+  "private": true,
+  "type": "module",
+  "description": "Reporter für Claude Code, Codex und Cursor – ohne Abhängigkeiten, Node 18+",
+  "scripts": {
+    "test": "node --test test/claude.test.mjs test/codex.test.mjs test/cursor.test.mjs"
+  }
+}

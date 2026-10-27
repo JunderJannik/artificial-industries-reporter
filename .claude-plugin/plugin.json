@@ -1,0 +1,32 @@
+{
+  "name": "artificial-industries-reporter",
+  "displayName": "Artificial Industries Reporter",
+  "version": "0.1.0",
+  "description": "Meldet, woran deine Agenten arbeiten, an die Fabrik von Artificial Industries. Ohne Prompts, Code oder Befehle.",
+  "author": { "name": "JunderJannik" },
+  "repository": "https://github.com/JunderJannik/artificial-industries-reporter",
+  "license": "MIT",
+  "keywords": ["monitoring", "visualisierung"],
+  "userConfig": {
+    "server_url": {
+      "type": "string",
+      "title": "Fabrik-Adresse",
+      "description": "Adresse der Webapp, z. B. https://artificial-industries.<name>.workers.dev",
+      "required": true,
+      "default": "http://localhost:8787"
+    },
+    "token": {
+      "type": "string",
+      "title": "Persönlicher Token",
+      "description": "Dein Token aus der Webapp (Werk anschließen)",
+      "required": true,
+      "sensitive": true
+    },
+    "hidden_projects": {
+      "type": "string",
+      "title": "Versteckte Projekte",
+      "description": "Ordnernamen, die nie gemeldet werden, durch Komma getrennt",
+      "default": ""
+    }
+  }
+}
